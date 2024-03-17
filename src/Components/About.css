@@ -1,46 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
 
 .koushik__picture img {
-    top: 50%;
-    left: 25%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    position: absolute;
-    max-width: 90%;
-    height: auto;
+  top: 50%;
+  left: 25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  max-width: 90%;
+  height: auto;
 }
 
 .about__text {
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 64px;
-    padding-top: 5%;
-    padding-bottom: 2%;
-    text-align: left;
-    margin-left: 45%;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  text-align: left;
+  margin-left: 45%;
 }
 
 .line {
-    height: 1px;
-    background-color: black;
-    border: none;
-    width: 50%;
-    margin-right: auto;
-    margin-left: 45%;
+  height: 1px;
+  background-color: black;
+  border: none;
+  width: 50%;
+  margin-right: auto;
+  margin-left: 45%;
 }
 
 .about__paragraph {
-    padding-top: 2%;
-    margin-left: 45%;
-    display: flex;
-    font-family: "Red Hat Display", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    flex-direction: column;
-    width: 40%;
-    text-align: left;
-    font-size: 24px;
+  padding-top: 2%;
+  margin-left: 45%;
+  display: flex;
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  flex-direction: column;
+  width: 40%;
+  text-align: left;
+  font-size: 24px;
 }
