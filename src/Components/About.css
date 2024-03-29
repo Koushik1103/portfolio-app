@@ -44,3 +44,12 @@
   text-align: left;
   font-size: 24px;
 }
+
+.about {
+  display: flex;
+  height: 100vh;
+  width: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
