@@ -4,6 +4,7 @@ import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import { Link } from "react-router-dom";
 
 function Sidebar() {
   return (
@@ -11,11 +12,17 @@ function Sidebar() {
       <div className="sidebar__behind">
         <div className="sidebar__name">KOUSHIK.</div>
         <div className="sidebar__navOptions">
-          <div className="sidebar__about">ABOUT</div>
+          <Link to="/about" className="sidebar__about">
+            ABOUT
+          </Link>
           <div className="sidebar__line1">|</div>
-          <div className="sidebar__projects">PROJECTS</div>
+          <Link to="/projects" className="sidebar__projects">
+            PROJECTS
+          </Link>
           <div className="sidebar__line2">|</div>
-          <div className="sidebar__resume">RESUME</div>
+          <Link to="/resume" className="sidebar__resume">
+            RESUME
+          </Link>
         </div>
       </div>
       <div className="sidebar__topSmallBox">

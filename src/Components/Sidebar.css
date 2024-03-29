@@ -55,3 +55,23 @@
 .sidebar__name {
   padding: 20px;
 }
+
+.sidebar__navOptions > a {
+  position: relative;
+  text-decoration: none; /* Remove default underline */
+}
+
+.sidebar__navOptions > a::after {
+  content: '';
+  position: absolute;
+  left: 0%;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.sidebar__navOptions > a:hover::after {
+  width: 100%;
+}
